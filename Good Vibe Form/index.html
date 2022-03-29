@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <form action="">
+        <div class="box">
+            <p>Tell us something positive that happened to you today.</p>
+            <br>
+            <div>
+                <label class="label" for="text">Name</label>
+                <input class="input" type="text" placeholder="Enter Your Name" id="text" required>
+            </div>
+            <div>
+                <label class="label" for="email">Email</label>
+                <input class="input" type="email" placeholder="Enter Your Email" id="email" required>
+            </div>
+            <div>
+                <label class="label" for="number">On a scale of 1-10, how good was it?</label>
+                <input class="input" type="number" placeholder="Enter a number between 1 and 10" id="number" min="0"
+                    max="10" required>
+            </div>
+            <div>
+                <label class="label" for="options">Where did it happen?</label>
+                <select class="inputoption" name="options" placeholder="Select Option" id="options" required>
+                    <option value="home">At home</option>
+                    <option value="commute">On my commute</option>
+                    <option value="work">At work</option>
+                    <option value="outside">On the street</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <div class="radiodiv"><label class="labelradio">What time of the day did it happen?</label></div>
+                <div>
+                    <ul id="time-of-day" style="list-style: none;">
+                        <li class="radio">
+                            <label>
+                                Morning
+                                <input name="time-radio" type="radio" value="1" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                Afternoon
+                                <input name="time-radio" type="radio" value="2" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                Evening
+                                <input name="time-radio" type="radio" value="3" class="user-selection">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="checkboxdiv"><label class="labelcheckbox">What emotions did you experience?<br>
+                        (Select all that apply)</label></div>
+                <div>
+                    <ul id="checkboxemotion" style="list-style: none;">
+                        <li class="checkbox">
+                            <label class="labelcheckbox">
+                                Excited
+                                <input name="time-radio" type="checkbox" value="1" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label class="labelcheckbox">
+                                Humbled
+                                <input name="time-radio" type="checkbox" value="2" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label class="labelcheckbox">
+                                Elated
+                                <input name="time-radio" type="checkbox" value="3" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label class="labelcheckbox">
+                                Loved
+                                <input name="time-radio" type="checkbox" value="4" class="user-selection">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label class="labelcheckbox">
+                                Enthusiastic
+                                <input name="time-radio" type="checkbox" value="5" class="user-selection">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <label class="labelstory" for="story">Please describe your positive experience.</label>
+            <div>
+                <textarea id="story" name="story" rows="4" cols="33" required placeholder="Enter your experience here..."></textarea>
+            </div>
+            <div class="buttonbox">
+                <button class="submit">Submit</button>
+            </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+    background-color: #a9d7e9;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+.box {
+    margin: auto;
+    width: 800px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+    height: 850px;
+}
+
+.input {
+    height: 20px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    width: 30%;
+    padding: 5px;
+}
+
+.inputoption {
+    height: 30px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    width: 30%;
+    padding: 5px;
+
+}
+
+.label {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+select {
+    height: 30px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    width: 15%;
+    padding: 5px;
+    margin-right: 140px;
+}
+
+.labelradio {
+    display: inline-block;
+    margin-top: 10px;
+
+
+}
+
+.user-selection {
+    float: left;
+    margin-right: 1px;
+
+}
+
+li.radio {
+    margin: 10px;
+    width: 13%;
+    margin-left: 60%;
+
+}
+
+ul#time-of-day {
+    transform: translateY(-34px)translateX(-90px);
+}
+
+.radiodiv {
+    margin-right: 250px;
+}
+
+li.checkbox {
+    margin: 10px;
+    float: left;
+    margin-left: 60%;
+    width: 13%;
+}
+
+li>label.labelcheckbox {
+    float: left;
+    text-indent: 2px;
+}
+
+.checkboxdiv {
+    margin-right: 410px;
+    text-align: right;
+}
+
+ul#checkboxemotion {
+    transform: translateY(-34px)translateX(-90px);
+}
+
+.checkbox {
+    transform: translateY(-27px)
+}
+
+#story {
+    border-color: rgba(128, 128, 128, 0.371);
+    transform: translateY(-50px)translateX(140px);
+    border-radius: 10px;
+}
+
+.labelstory {
+    display: inline-block;
+    width: 60%;
+    text-align: end;
+    transform: translateY(-25px)translateX(-250px)
+}
+
+.submit{
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 6px;
+    height: 45px;
+    width: 85px;
+    margin: -10px;
+    cursor: pointer;
+
+}
+
